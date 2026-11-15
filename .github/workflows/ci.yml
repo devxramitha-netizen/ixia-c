@@ -5,6 +5,7 @@ env:
   GO_VERSION: "1.23"
 
 on:
+  workflow_dispatch:
   push:
 
 jobs:
